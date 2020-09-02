@@ -18,6 +18,10 @@ Use the following command to switch to the develop branch
 
 ## Run the server
 
-Go to the server directory using
+Go to the server directory using the command
 
-`cd packages/server'
+`cd packages/server`
+
+Start the command using the command:
+
+`npm start`
