@@ -15,3 +15,9 @@ Use the following command to switch to the develop branch
 
 `git checkout develop`
 
+
+## Run the server
+
+Go to the server directory using
+
+`cd packages/server'
