@@ -1,5 +1,7 @@
 # Breaking Phubbing
 
+Application to break the habit of phubbing created using the MERN stack.
+
 ## How to use
 
 **Checkout the project:**
