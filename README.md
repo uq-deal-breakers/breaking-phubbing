@@ -2,7 +2,7 @@
 
 Application to break the habit of phubbing created using the MERN stack.
 
-## Use Website
+## Use Application
 
 Application is hosted on GitHub Pages on the following link:
 
@@ -22,9 +22,3 @@ Checkout the project using the following command in the terminal
 Use the following command to switch to the develop branch
 
 `git checkout develop`
-
-**Install the packages**
-
-Inside the client and server packages install the dependencies using the command:
-
-`npm install`
