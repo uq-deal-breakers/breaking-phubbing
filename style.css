@@ -1,0 +1,329 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html, 
+body {
+    font-family: 'Source Sans Pro', sans-serif;
+    background-color: #FFDFD9;
+}
+
+h2 {
+    color: #FF5864;
+    text-align: center;
+    padding-top: 40px;
+    padding-bottom: 20px;
+}
+
+/* Header */
+
+.app-header {
+    background-color: #FF5864;
+}
+
+.container {
+    width: 90%;
+    margin: 0 auto;
+    padding: 10px;
+    overflow: none;
+}
+
+.app-header .logo {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 120px;
+}
+
+.app-header .settings {
+    position: absolute;
+    top: 8px;
+    right: 8px;
+    width: 40px;
+}
+
+/* Footer */
+
+.app-footer {
+    background:  #FF5864;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 110px;
+    padding-top: 10px;
+}
+
+.app-footer ul {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    list-style: none;
+}
+
+.app-footer ul li a {
+    display: flex;
+    flex-direction:column;
+    align-items: center;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 18px;
+    text-decoration: none;
+    color: #FFFFFF;
+}
+
+.app-footer .menu-icons {
+    width: 72px;
+    height: 72px;
+}
+
+.app-footer a.current {
+    border-bottom: 3px solid #FFFFFF;
+}
+
+/* On/Off Button https://www.youtube.com/watch?v=ZmP6_SBUxq0 */
+
+.toggle {
+    position: relative;
+    height: 64px;
+    width:150px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.toggle input {
+    display: none;
+}
+
+.transition {
+    position: absolute;
+    top: 0;
+    right:0;
+    bottom: 0;
+    left: 0;
+    background: linear-gradient(to left, #F74B4B, #DE1D1E);
+    border-radius: 35px;
+    transition: 0.4s;
+}
+
+.transition:before {
+    position: absolute;
+    content: "";
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    background-color: #FFFFFF;
+    top:6px;
+    left: 6px;
+}
+
+input:checked + .transition {
+    background: linear-gradient(to right, #3BB44A, #6EC042);
+}
+
+input:checked + .transition:before {
+    transform: translateX(87px);
+}
+
+/* Today's Events */
+
+.today {
+    background-color: #FFFFFF;
+    border-radius: 10px;
+    width: 70%;
+    padding: 20px;
+    position: absolute;
+    top: 52%;
+	left: 0;
+	right: 0;
+    margin: auto;
+    display: flex;
+}
+
+.today p:first-child {
+    font-weight: bold;
+    color: #FF5864;
+    font-size: 20px;
+}
+
+.today p:nth-of-type(2), .today p:nth-of-type(3) {
+    font-size: 20px;
+    color: #383838;
+}
+
+.today .cancel {
+    background-color: #FF5864;
+    border: none;
+    border-radius: 10px;
+    color: #FFFFFF;
+    font-weight: bold;
+    font-size: 18px;
+    margin: auto;
+    padding: 10px;
+    position: absolute;
+    bottom: 22px;
+    right: 30px;
+}
+
+/* Light & Audio Settings */
+
+.settings {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.settings i, .settings p {
+    color: #FF5864;
+    font-weight: bold;
+    font-size: 25px;
+    padding: 20px;
+}
+
+.settings i {
+    font-size: 30px;
+}
+
+.light, .audio {
+    background-color: #FFFFFF;
+    border-radius: 10px;
+    width: 75%;
+    padding: 15px;
+	left: 0;
+	right: 0;
+    margin: auto;
+}
+
+.title {
+    color: #FF5864;
+    font-weight: bold;
+    font-size: 20px;
+    padding-bottom: 10px;
+}
+
+.box {
+    display: flex;
+    align-items: baseline;
+}
+
+.box .settings-icons {
+    height: 35px;
+    width: 35px;
+    padding-right: 10px;
+}
+
+.light_color {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.light_color p {
+    font-size: 18px;
+    color: #383838;
+}
+
+.sp-replacer {
+    border: none;
+    background: none;
+}
+
+.sp-preview {
+    width: 45px;
+    height: 30px;
+}
+
+.sp-dd {
+    font-size: 0px;
+    padding: 0px;
+}
+
+.sp-container {
+    border: none;
+    background-color: #ececec;
+}
+
+.sp-palette .sp-thumb-el:hover, .sp-palette .sp-thumb-el.sp-thumb-active {
+    border: none;
+}
+
+.sp-palette .sp-thumb-el {
+    height: 30px;
+    width: 30px;
+}
+
+/* Radio Buttons https://www.youtube.com/watch?v=5K7JefKDa4s */
+
+.radio {
+    display: inline-flex;
+    align-items: center;
+}
+
+.radio_input {
+    display: none;
+}
+
+.radio_button {
+    width: 25px;
+    height: 25px;
+    border: 2px solid #5c5c5c;
+    border-radius: 50%;
+    margin-right: 10px;
+    box-sizing: border-box;
+    padding: 2px;
+}
+
+.radio_button::after {
+    content: "";
+    width: 100%;
+    height: 100%;
+    display: block;
+    background: #FF5864;
+    border-radius: 50%;
+    transform: scale(0);
+}
+
+.radio_input:checked + .radio_button::after {
+    transform: scale(1);
+}
+
+.audio label {
+    font-size: 18px;
+    color: #383838;
+}
+
+/* Range Sliders https://www.youtube.com/watch?v=BrpiNUf2XCk */
+
+.sliderBox {
+    width: 80%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.slider {
+    -webkit-appearance: none;
+    outline: none;
+    width: 100%;
+    height: 10px;
+    background: linear-gradient(90deg, rgb(255, 223, 217) 60%, rgb(255, 223, 217) 60%);
+    border-radius: 10px;
+}
+
+.slider::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    appearance: none;
+    width: 28px;
+    height: 28px;
+    border-radius: 50%;
+    background: #FFFFFF;
+    border: 6px solid #FF5864;
+}
+
+.box .sliderBox p {
+    font-size: 18px;
+    color: #383838;
+    padding-left: 10px;
+}
