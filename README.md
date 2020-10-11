@@ -2,6 +2,12 @@
 
 Application to break the habit of phubbing created using the MERN stack.
 
+## Use Website
+
+Application is hosted on GitHub Pages on the following link:
+
+https://uq-deal-breakers.github.io/breaking-phubbing/
+
 ## How to use
 
 **Checkout the project:**
@@ -22,13 +28,3 @@ Use the following command to switch to the develop branch
 Inside the client and server packages install the dependencies using the command:
 
 `npm install`
-
-## Run the server
-
-Go to the server directory using the command
-
-`cd packages/server`
-
-Start the server using the command:
-
-`npm start`
