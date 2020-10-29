@@ -1,14 +1,14 @@
 # Breaking Phubbing
 
-Application to break the habit of phubbing created using the MERN stack.
+Application to interact with the device.
 
 ## Use Application
 
-Application is hosted on GitHub Pages on the following link:
+Application is hosted on GitHub Pages on the following link: (Recommended to view on a mobile)
 
 https://uq-deal-breakers.github.io/breaking-phubbing/
 
-## How to use
+## How to use the code
 
 **Checkout the project:**
 
