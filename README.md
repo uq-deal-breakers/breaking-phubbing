@@ -8,6 +8,14 @@ Application is hosted on GitHub Pages on the following link: (Recommended to vie
 
 https://uq-deal-breakers.github.io/breaking-phubbing/
 
+
+
+* ### Conference Poster
+<img src="https://imgur.com/09kmhAy.jpg" alt="poster">
+
+* ### Kickstarter Style Video
+https://youtu.be/-Krk2f0TbwQ
+
 ## How to use the code
 
 **Checkout the project:**
