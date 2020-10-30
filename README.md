@@ -8,7 +8,7 @@ Application is hosted on GitHub Pages on the following link: (Recommended to vie
 
 https://uq-deal-breakers.github.io/breaking-phubbing/
 
-
+## Promotional Materials
 
 * ### Conference Poster
 <img src="https://imgur.com/09kmhAy.jpg" alt="poster">
